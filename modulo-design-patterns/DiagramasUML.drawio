@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="2">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -176,6 +176,86 @@
         </mxCell>
         <mxCell id="6e0c8c40b5770093-73" value="&amp;lt;&amp;lt;model&amp;gt;&amp;gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=10;fontFamily=Verdana" parent="1" vertex="1">
           <mxGeometry x="327.5" y="114.5" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9dz5sb5SBZYltHxH7ovr" name="Exercicio Rota">
+    <mxGraphModel dx="2084" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-18" value="&amp;lt;&amp;lt;singleton&amp;gt;&amp;gt;&lt;div&gt;&amp;lt;&amp;lt;strategy&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;RotaAltamenteSegura&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="506" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-20" value="-rota: Rota" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-18">
+          <mxGeometry y="55" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-21" value="-instance: RotaTipos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#808080;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-18">
+          <mxGeometry y="75" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-18">
+          <mxGeometry y="95" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-25" value="-RotaAltamenteSegura(): void&lt;div&gt;+getInstance(): RotaTipos&lt;/div&gt;&lt;div&gt;+defineRota(rota: Rota): void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-18">
+          <mxGeometry y="103" width="200" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-26" value="&amp;lt;&amp;lt;singleton&amp;gt;&amp;gt;&lt;div&gt;&amp;lt;&amp;lt;strategy&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;RotaSegura&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="506" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-27" value="-rota: Rota" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-26">
+          <mxGeometry y="55" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-28" value="-instance: RotaTipos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#808080;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-26">
+          <mxGeometry y="75" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-26">
+          <mxGeometry y="95" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-30" value="-RotaSegura(): void&lt;div&gt;+getInstance(): RotaTipos&lt;/div&gt;&lt;div&gt;+defineRota(rota: Rota): void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-26">
+          <mxGeometry y="103" width="200" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-31" value="&amp;lt;&amp;lt;singleton&amp;gt;&amp;gt;&lt;div&gt;&amp;lt;&amp;lt;strategy&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;RotaAceitavel&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="506" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-32" value="-rota: Rota" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-31">
+          <mxGeometry y="55" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-33" value="-instance: RotaTipos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#808080;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-31">
+          <mxGeometry y="75" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-31">
+          <mxGeometry y="95" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-35" value="-RotaSegura(): void&lt;div&gt;+getInstance(): RotaTipos&lt;/div&gt;&lt;div&gt;+defineRota(rota: Rota): void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-31">
+          <mxGeometry y="103" width="200" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-36" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;&lt;b&gt;RotaTipos&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-36">
+          <mxGeometry y="55" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-40" value="+defineRota(rota: Rota): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="UA7WcanQbPNIiQp98Nrz-36">
+          <mxGeometry y="63" width="200" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.236;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UA7WcanQbPNIiQp98Nrz-18" target="UA7WcanQbPNIiQp98Nrz-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.476;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UA7WcanQbPNIiQp98Nrz-26" target="UA7WcanQbPNIiQp98Nrz-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UA7WcanQbPNIiQp98Nrz-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.796;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UA7WcanQbPNIiQp98Nrz-31" target="UA7WcanQbPNIiQp98Nrz-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
