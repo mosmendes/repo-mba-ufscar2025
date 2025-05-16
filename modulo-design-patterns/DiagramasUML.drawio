@@ -396,7 +396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V0zyS78sum6hGINmfJjm" name="Exercicio Elevador">
-    <mxGraphModel dx="2911" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -639,7 +639,7 @@
           <mxGeometry y="45" width="230" height="65" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-31" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;div&gt;&lt;b&gt;IMusicStrategy&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="870" width="210" height="90" as="geometry" />
+          <mxGeometry x="335" y="810" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-31">
           <mxGeometry y="37" width="210" height="8" as="geometry" />
@@ -647,40 +647,37 @@
         <mxCell id="CR90_kn627Y_AgFMKzBH-33" value="&lt;div&gt;+ play(): void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-31">
           <mxGeometry y="45" width="210" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="CR90_kn627Y_AgFMKzBH-34" value="NoMusic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1040" width="160" height="70" as="geometry" />
+        <mxCell id="CR90_kn627Y_AgFMKzBH-34" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;lt;&amp;lt;implements&amp;gt;&amp;gt; IObserver&lt;/span&gt;&lt;/div&gt;NoMusic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="980" width="190" height="84" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-34">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="40" width="190" height="8" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-36" value="+ play(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-34">
-          <mxGeometry y="34" width="160" height="36" as="geometry" />
+          <mxGeometry y="48" width="190" height="36" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.692;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CR90_kn627Y_AgFMKzBH-34" target="CR90_kn627Y_AgFMKzBH-33">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="552" y="1117.33" as="sourcePoint" />
-            <mxPoint x="307" y="990" as="targetPoint" />
+            <mxPoint x="727" y="1057.33" as="sourcePoint" />
+            <mxPoint x="482" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CR90_kn627Y_AgFMKzBH-38" value="CalmingMusic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1040" width="160" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="CR90_kn627Y_AgFMKzBH-42" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-38">
-          <mxGeometry y="26" width="160" height="310" as="geometry" />
+        <mxCell id="CR90_kn627Y_AgFMKzBH-38" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;lt;&amp;lt;implements&amp;gt;&amp;gt; IMusicStragegy&lt;/span&gt;&lt;/div&gt;CalmingMusic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="980" width="200" height="84" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-38">
-          <mxGeometry y="336" width="160" height="8" as="geometry" />
+          <mxGeometry y="40" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-40" value="+ play(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CR90_kn627Y_AgFMKzBH-38">
-          <mxGeometry y="344" width="160" height="36" as="geometry" />
+          <mxGeometry y="48" width="200" height="36" as="geometry" />
         </mxCell>
         <mxCell id="CR90_kn627Y_AgFMKzBH-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.336;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CR90_kn627Y_AgFMKzBH-38" target="CR90_kn627Y_AgFMKzBH-33">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="632" y="881" as="sourcePoint" />
-            <mxPoint x="235" y="990" as="targetPoint" />
+            <mxPoint x="807" y="821" as="sourcePoint" />
+            <mxPoint x="410" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CR90_kn627Y_AgFMKzBH-44" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.358;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4roHIh98WJo3496GzB5N-4" target="CR90_kn627Y_AgFMKzBH-31">
+        <mxCell id="CR90_kn627Y_AgFMKzBH-44" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.358;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4roHIh98WJo3496GzB5N-4" target="CR90_kn627Y_AgFMKzBH-31">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="280" y="790" as="sourcePoint" />
             <mxPoint x="440" y="790" as="targetPoint" />
